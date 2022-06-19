@@ -78,4 +78,4 @@ Thanks so much for visiting and I hope that my site is enjoyable to visit. This 
 
 Fy
 
-{{< icon name="download" pack="fas" >}} # Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+# {{< icon name="download" pack="fas" >}} # Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
