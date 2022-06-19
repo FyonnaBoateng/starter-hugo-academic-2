@@ -1,26 +1,26 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Fyonna Boateng
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: BSc Psychology Undergrad @ UoR 📖| Passionate about making ethical data-driven decisions and holistically exploring data about human behaviour👩‍💻
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Reading
+  #  url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include bias, social media analysis and the IoT.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Bias
+  - Social Media
+  - Internet of Things (IoT)
 
 # Education to show in About widget
 education:
