@@ -56,7 +56,7 @@ social:
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
-# and uncomment the lines below.
+# and uncomment the lines below. {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 # - icon: cv
 #   icon_pack: ai
 #   link: uploads/resume.pdf
@@ -77,5 +77,3 @@ I hope to be able to make sense of scattered, heterogenous data in order to assi
 Thanks so much for visiting and I hope that my site is enjoyable to visit. This entire site is designed using my GitHub.
 
 Fy
-
-# {{< icon name="download" pack="fas" >}} # Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
