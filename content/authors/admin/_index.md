@@ -76,4 +76,6 @@ I hope to be able to make sense of scattered, heterogenous data in order to assi
 
 Thanks so much for visiting and I hope that my site is enjoyable to visit. This entire site is designed using my GitHub.
 
+NB: Anything following this section of my website is currently a work in progress as I become more familiar with GitHub and Markdown. Thank you :) 
+
 Fy
