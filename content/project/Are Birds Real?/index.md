@@ -33,12 +33,28 @@ url_video: ''
 slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Ah yes, yet again we are subject to seemingly unthinkable trends on the internet. I noticed a few months ago that the conspiracy *Birds Aren't Real* was blowing up on Twitter and Reddit, and I wondered if there was anything interesting about who was tweeting it, what they were tweeting about, and why. Welp, I'll give it a shot with the little information I've taught myself.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+Wikipedia gives a great explanation of the origins of this theory: https://en.wikipedia.org/wiki/Birds_Aren%27t_Real
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+## Data - Where is it from?
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+I grabbed some data from the lovely Kaggle.com from both Reddit and Twitter. Whether I will use both of these datasets... time will tell.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+https://www.kaggle.com/gpreda/birds-arent-real
+https://www.kaggle.com/gpreda/birds-arent-real-on-twitter-either
+
+I haven't a clue what exactly to do now, but I think I'll start with an exploratory data analysis (EDA) to get an idea of what potential patterns could be present in this data. There might not be any. That's okay too.
+
+I have some theories about what I could potentially see in the data:
+
+1) I have a feeling that Social Identity Theory will have some influence here. An example being that individuals will receive more downvotes if their post or comment is incongruous with the rest of the subreddit.
+
+2) "[This](https://journals.sagepub.com/doi/full/10.1177/1368430220987596)" study influences my second theory. I feel that similar findings will be present here, and that there will be a strong presence of aggressive words, dividing language, etc. I'll use the main words and themes found here to see if their findings are applicable and able to be replicated in this context.
+
+Generally speaking, I have lot of specific questions: What social factors tend to be associated with being more active in the group? Are there certain demographics that are more active than others? What emotional aspects seem to be present in these groups?
+
+I'm not too sure if I even know how to answer these questions yet, but there's no harm in learning as I go along. 
+
+With all of that out of the way, now it's time to get into the data! 
+
