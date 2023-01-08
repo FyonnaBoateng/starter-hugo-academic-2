@@ -1,6 +1,6 @@
 ---
 title: Are Birds Real?
-summary: A short investigation into the #BirdsArentReal movement.
+summary: A short investigation into the BirdsArentReal movement.
 tags:
   - Social Media
   - Twitter
