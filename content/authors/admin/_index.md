@@ -11,7 +11,7 @@ role: BSc Psychology Undergrad @ UoR 📖| Passionate about making ethical data-
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Reading
-  #  url: https://www.stanford.edu/
+  #  url: https://www.reading.ac.uk
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include bias, social media analysis and the IoT.
